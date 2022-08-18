@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
-const dev = "production" === "development";
+const dev = 'production' === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,13 +16,13 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			assets: "docs",
-			pages: "docs"
+			assets: 'build',
+			pages: 'build'
 		}),
 		prerender: {
 			default: true
 		}
-	},
+	}
 };
 
 export default config;

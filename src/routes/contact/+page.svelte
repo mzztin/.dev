@@ -11,15 +11,19 @@
 		console.log(`email: ${email} message: ${message}`);
 	};
 
-	import { t} from "$lib/lang"
+	import { t } from '$lib/lang';
 </script>
 
 <h1>{$t.CONTACT_PAGE.TITLE}</h1>
 
 <form>
-	<input bind:value={email} placeholder="{$t.CONTACT_PAGE.EMAIL_INPUT}" type="email" />
+	<input bind:value={email} placeholder={$t.CONTACT_PAGE.EMAIL_INPUT} type="email" />
 
-	<textarea bind:value={message} placeholder="{$t.CONTACT_PAGE.MESSAGE_INPUT}" contenteditable="true" />
+	<textarea
+		bind:value={message}
+		placeholder={$t.CONTACT_PAGE.MESSAGE_INPUT}
+		contenteditable="true"
+	/>
 
 	<button type="button" on:click={submit}>{$t.CONTACT_PAGE.SUBMIT_BUTTON}</button>
 </form>

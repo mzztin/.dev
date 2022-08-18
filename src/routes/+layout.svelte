@@ -1,6 +1,4 @@
 <script>
-
-
 	import BrandingAvatar from '$lib/components/BrandingAvatar.svelte';
 
 	import Footer from '$lib/components/Footer.svelte';

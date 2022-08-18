@@ -4,7 +4,7 @@
 	import Link from '$lib/components/Link.svelte';
 	import Technology from '$lib/components/Technology.svelte';
 
-	import { t } from "$lib/lang";
+	import { t } from '$lib/lang';
 </script>
 
 <h1>about me</h1>
@@ -12,7 +12,8 @@
 <div class="text">
 	<p>{$t.ABOUT_PAGE.GREETING}</p>
 	<p>
-		{$t.ABOUT_PAGE.INFORMATION} <!-- TODO FILTER LINK OUT OF STRING!!! -->
+		{$t.ABOUT_PAGE.INFORMATION}
+		<!-- TODO FILTER LINK OUT OF STRING!!! -->
 	</p>
 	<p />
 </div>
