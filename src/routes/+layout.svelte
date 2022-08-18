@@ -1,7 +1,3 @@
-<script lang="ts" context="module">
-	import { initLanguage } from '$lib/lang';
-</script>
-
 <script>
 
 

@@ -16,11 +16,11 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
+			assets: "docs",
+			pages: "docs"
 		}),
-		paths: {
-			base: dev ? "" : "/.dev",
+		prerender: {
+			default: true
 		}
 	},
 };
