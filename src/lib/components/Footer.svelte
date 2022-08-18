@@ -15,6 +15,11 @@
 
 		p {
 			position: absolute;
+
+			@media (max-width: 768px) {
+				bottom: 0px;
+			}
+
 			bottom: 2rem;
 
 			color: gray;
