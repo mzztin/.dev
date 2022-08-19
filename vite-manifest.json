@@ -1,6 +1,6 @@
 {
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.423_svelte@3.49.0+vite@3.0.7/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-739527e0.js",
+    "file": "_app/immutable/start-1dc041ec.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.423_svelte@3.49.0+vite@3.0.7/node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -17,7 +17,7 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-ae9dae09.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-95dad8aa.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -129,7 +129,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-83716d45.js",
+    "file": "_app/immutable/chunks/0-c2856421.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -212,25 +212,25 @@
     "file": "_app/immutable/assets/BackButton-78451a32.css",
     "src": "BackButton.css"
   },
-  "src/routes/about/+page.css": {
-    "file": "_app/immutable/assets/+page-e27f07aa.css",
-    "src": "src/routes/about/+page.css"
-  },
   "Link.css": {
     "file": "_app/immutable/assets/Link-d398d406.css",
     "src": "Link.css"
   },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/+layout-16916f11.css",
-    "src": "src/routes/+layout.css"
+  "LanguageSelector.css": {
+    "file": "_app/immutable/assets/LanguageSelector-03438830.css",
+    "src": "LanguageSelector.css"
   },
   "src/routes/contact/+page.css": {
     "file": "_app/immutable/assets/+page-9b8d03fa.css",
     "src": "src/routes/contact/+page.css"
   },
-  "LanguageSelector.css": {
-    "file": "_app/immutable/assets/LanguageSelector-03438830.css",
-    "src": "LanguageSelector.css"
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/+layout-16916f11.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/about/+page.css": {
+    "file": "_app/immutable/assets/+page-e27f07aa.css",
+    "src": "src/routes/about/+page.css"
   },
   "src/routes/+page.css": {
     "file": "_app/immutable/assets/+page-640d6157.css",
