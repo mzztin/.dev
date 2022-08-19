@@ -5,10 +5,11 @@
 <svelte:head>
     <title>{$t.TITLE}</title>
 
-    <meta name="og:title" content="This is Martin's website!" />
-    <meta name="og:description" content="This is Martin's website!" />
+    <meta name="og:title" content="Martin - Developer" />
+    <meta name="og:description" content="Woah! This is Martin's personal website" />
     <meta name="og:image" content="https://mzztin.dev/martin.png" />
     <meta property="og:url" content="https://mzztin.dev" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#D3D3D3">
     
