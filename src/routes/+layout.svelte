@@ -8,7 +8,10 @@
 	import LanguageSelector from '$lib/components/LanguageSelector.svelte';
 	import BackButton from '$lib/components/BackButton.svelte';
 	import { onMount } from 'svelte';
+import MetaTags from '$lib/components/MetaTags.svelte';
 </script>
+
+<MetaTags />
 
 <LanguageSelector />
 

@@ -16,11 +16,11 @@ gh.publish(
 	'build',
 	{
 		repo: 'https://github.com/mzztin/.dev.git',
-		branch: 'gh-pages'
+		branch: 'pages'
 	},
 	(err) => {
 		if (err) throw err;
 
 		console.log('published website');
 	}
-);
+);	

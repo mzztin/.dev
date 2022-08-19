@@ -1,4 +1,6 @@
 export interface TranslationValues {
+	TITLE: string;
+
 	MAIN_PAGE_FIRST_LINE: string;
 	MAIN_PAGE_SECOND_LINE: string;
 
@@ -27,6 +29,7 @@ export interface TranslationValues {
 }
 
 export const GERMAN: TranslationValues = {
+	TITLE: 'Martin - Entwickler',
 	MAIN_PAGE_FIRST_LINE: 'student',
 	MAIN_PAGE_SECOND_LINE: 'aufstrebender entwickler',
 	ABOUT_LINE: 'über mich',
@@ -52,6 +55,7 @@ export const GERMAN: TranslationValues = {
 };
 
 export const ENGLISH: TranslationValues = {
+	TITLE: 'Martin - Developer',
 	MAIN_PAGE_FIRST_LINE: 'student',
 	MAIN_PAGE_SECOND_LINE: 'aspiring developer',
 	ABOUT_LINE: 'about me',
